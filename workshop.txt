@@ -1,0 +1,6 @@
+version=1
+id=3725678698
+title=Grey Meridian's Better Tow Trucks [B42.18]
+description=Compatibility layer update.
+tags=Build 42;Vehicles;QoL
+visibility=public

@@ -1,0 +1,20 @@
+# macOS
+.DS_Store
+
+# Gradle / Java generated files
+.gradle/
+**/build/
+**/bin/
+*.class
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+
+# Logs / temporary files
+*.log
+
+# Project scratch/log directory
+Misc Logs/
+archive/

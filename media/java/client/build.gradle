@@ -1,0 +1,28 @@
+plugins {
+    id 'java'
+}
+
+group = 'ronny.TowTruckBCPCompat'
+version = '42.18'
+
+def gameDir = file('/home/ronny/.local/share/Steam/steamapps/common/ProjectZomboid/projectzomboid')
+def zombieBuddyJar = file("${gameDir}/ZombieBuddy.jar")
+def projectZomboidJar = file("${gameDir}/projectzomboid.jar")
+
+dependencies {
+    compileOnly files(projectZomboidJar)
+    compileOnly files(zombieBuddyJar)
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+}
+
+jar {
+    archiveBaseName = 'GreyMeridian_BetterTowTrucks'
+    archiveVersion = '42.18'
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.release = 25
+}

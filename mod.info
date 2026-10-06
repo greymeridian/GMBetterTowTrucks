@@ -1,0 +1,25 @@
+name=Grey Meridian's Better Tow Trucks [B42.18]
+id=GM_BetterTowTruck
+description=<GREEN> Compatibility layer for Better Car Physics and Harry's Functional Tow Truck. <RGB:1,1,1><BR>
+description=This mod uses ZombieBuddy to restore the tow truck physics from Harry's Functional Tow Truck <BR>
+description=without requiring Tow Truck's bundled zombie folder to overwrite Better Car Physics files. <BR>
+description=<RED> IMPORTANT: <RGB:1,1,1><BR>
+description=ZombieBuddy and Better Car Physics require manual installation. <BR>
+description=Make sure both are installed correctly or this compatibility layer will not function. <BR>
+description=Do NOT manually install the zombie folder included with Tow Truck [B42]. <BR>
+description=Doing so will overwrite files required by Better Car Physics. <BR>
+description=<GREEN> Dependencies: <RGB:1,1,1><BR>
+description=ZombieBuddy - Java mod framework by Zed <BR>
+description=Better Car Physics - by Neidmare <BR>
+description=Tow Truck [B42] - current fork maintained by obtainchi <BR>
+description=Harry's Functional Tow Truck was originally created by @harrycheez, <BR>
+description=later edited by @Enobdercas and @Aiteron, and is now maintained by @obtainchi. <BR>
+description=See Workshop page for full install instructions, dependency links, and credits.
+poster=poster.png
+author=Grey Meridian
+modversion=1.0
+require=ZombieBuddy,BetterCarPhysics,STowTruck_B42
+javaJarFile=media/java/GreyMeridian_BetterTowTrucks-42.18.jar
+javaPkgName=GreyMeridianBetterTowTrucks
+
+icon=icon.png
